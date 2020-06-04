@@ -1,0 +1,62 @@
+; Gadget version 2.2.00-BETA running on a5614-VirtualBox Mon Apr 20 15:36:26 2020
+; Listing of the switches used in the current Gadget run
+grq0	hadgrowergrowthcalcCmodelvariable	
+grq2	hadgrowergrowthcalcCmodelvariable	hadgrowergrowthcalcCmodelvariable	
+bbeta	hadgrower	
+inage2	hadinitialcondmeandata	
+inage3	hadinitialcondmeandata	
+inage4	hadinitialcondmeandata	
+inage5	hadinitialcondmeandata	
+inage6	hadinitialcondmeandata	
+inage7	hadinitialcondmeandata	
+inage8	hadinitialcondmeandata	
+inage9	hadinitialcondmeandata	hadinitialcondmeandata	
+rec78	hadrenewaldata	
+rec79	hadrenewaldata	
+rec80	hadrenewaldata	
+rec81	hadrenewaldata	
+rec82	hadrenewaldata	
+rec83	hadrenewaldata	
+rec84	hadrenewaldata	
+rec85	hadrenewaldata	
+rec86	hadrenewaldata	
+rec87	hadrenewaldata	
+rec88	hadrenewaldata	
+rec89	hadrenewaldata	
+rec90	hadrenewaldata	
+rec91	hadrenewaldata	
+rec92	hadrenewaldata	
+rec93	hadrenewaldata	
+rec94	hadrenewaldata	
+rec95	hadrenewaldata	
+rec96	hadrenewaldata	
+rec97	hadrenewaldata	
+rec98	hadrenewaldata	
+rec99	hadrenewaldata	
+acomm	fleetcommpredatorcommsuitabilityforhadmodelvariable	fleetfuturepredatorfuturesuitabilityforhadmodelvariable	
+bcomm	fleetcommpredatorcommsuitabilityforhadmodelvariable	fleetfuturepredatorfuturesuitabilityforhadmodelvariable	
+asur	fleetsurveypredatorsurveysuitabilityforhadmodelvariable	
+bsur	fleetsurveypredatorsurveysuitabilityforhadmodelvariable	
+mult	fleetfuturescale	
+;
+; Listing of the likelihood components used in the current Gadget run
+;
+; Component	Type	Weight
+bounds	8	10
+understocking	2	1e-12
+meanl.sur	4	2e-06
+meanl.catch	4	3e-07
+ldist.sur	3	5e-08
+ldist.catch	3	3e-06
+alkeys.sur	3	7e-06
+alkeys.catch	3	2e-06
+si10	1	0.007
+si15	1	0.01
+si20	1	0.01
+si25to45	1	0.01
+si50to60	1	0.01
+si65to75	1	0.007
+;
+; Listing of the output from the likelihood components for the current Gadget run
+;
+0	   6.34217    17.0203     11.793  0.0112343  0.0023678 0.00604297  0.0227619 0.00146602      0.001  0.0260705   0.096905    22.3779    9.98453    1.21873    11.2581    4.89164    3.53284    8.22129    9.09048     24.935    9.08524    5.02427    4.32854    11.9067    20.3861    11.1296    9.11553    11.8561    6.54061    14.7775    4.23291    7.98902    24.7966   -10.3424   0.214051   -4.33914   0.224647        0.5 		       0        0     5235 2.722e+04 4.027e+05 1.251e+05 1.639e+04 5.641e+04    4.515    2.622     5.28    11.49    4.804    6.986 		  0.964173748704462

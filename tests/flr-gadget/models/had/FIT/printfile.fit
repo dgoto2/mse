@@ -1,0 +1,133 @@
+; gadget printfile, created in 2020-04-20
+[component]
+type	likelihoodsummaryprinter
+printfile	FIT/out.fit/likelihoodsummary
+;
+[component]
+type	likelihoodprinter
+likelihood	meanl.sur
+printfile	FIT/out.fit/meanl.sur
+;
+[component]
+type	likelihoodprinter
+likelihood	meanl.catch
+printfile	FIT/out.fit/meanl.catch
+;
+[component]
+type	likelihoodprinter
+likelihood	ldist.sur
+printfile	FIT/out.fit/ldist.sur
+;
+[component]
+type	likelihoodprinter
+likelihood	ldist.catch
+printfile	FIT/out.fit/ldist.catch
+;
+[component]
+type	likelihoodprinter
+likelihood	alkeys.sur
+printfile	FIT/out.fit/alkeys.sur
+;
+[component]
+type	likelihoodprinter
+likelihood	alkeys.catch
+printfile	FIT/out.fit/alkeys.catch
+;
+[component]
+type	likelihoodprinter
+likelihood	si10
+printfile	FIT/out.fit/si10
+;
+[component]
+type	likelihoodprinter
+likelihood	si15
+printfile	FIT/out.fit/si15
+;
+[component]
+type	likelihoodprinter
+likelihood	si20
+printfile	FIT/out.fit/si20
+;
+[component]
+type	likelihoodprinter
+likelihood	si25to45
+printfile	FIT/out.fit/si25to45
+;
+[component]
+type	likelihoodprinter
+likelihood	si50to60
+printfile	FIT/out.fit/si50to60
+;
+[component]
+type	likelihoodprinter
+likelihood	si65to75
+printfile	FIT/out.fit/si65to75
+;
+[component]
+type	stockstdprinter
+stockname	had
+printfile	FIT/out.fit/had.std
+printatstart 1
+yearsandsteps	all	1
+;
+[component]
+type	stockprinter
+stocknames	had
+areaaggfile	FIT/print.aggfiles/had.area.agg
+ageaggfile	FIT/print.aggfiles/had.allages.agg
+lenaggfile	FIT/print.aggfiles/had.len.agg
+printfile	FIT/out.fit/had.full
+printatstart	1
+yearsandsteps	all	1
+;
+[component]
+type	predatorpreyprinter
+predatornames	comm survey future
+preynames	had
+areaaggfile	FIT/print.aggfiles/had.area.agg
+ageaggfile	FIT/print.aggfiles/had.age.agg
+lenaggfile	FIT/print.aggfiles/had.alllen.agg
+printfile	FIT/out.fit/had.prey
+yearsandsteps	all all
+;
+[component]
+type	predatorpreyprinter
+predatornames	comm
+preynames	had
+areaaggfile	FIT/print.aggfiles/had.area.agg
+ageaggfile	FIT/print.aggfiles/had.allages.agg
+lenaggfile	FIT/print.aggfiles/had.len.agg
+printfile	FIT/out.fit/had.prey.comm
+yearsandsteps	all all
+;
+[component]
+type	predatorpreyprinter
+predatornames	survey
+preynames	had
+areaaggfile	FIT/print.aggfiles/had.area.agg
+ageaggfile	FIT/print.aggfiles/had.allages.agg
+lenaggfile	FIT/print.aggfiles/had.len.agg
+printfile	FIT/out.fit/had.prey.survey
+yearsandsteps	all all
+;
+[component]
+type	predatorpreyprinter
+predatornames	future
+preynames	had
+areaaggfile	FIT/print.aggfiles/had.area.agg
+ageaggfile	FIT/print.aggfiles/had.allages.agg
+lenaggfile	FIT/print.aggfiles/had.len.agg
+printfile	FIT/out.fit/had.prey.future
+yearsandsteps	all all
+;
+[component]
+type	stockprinter
+stocknames	had
+areaaggfile	FIT/print.aggfiles/had.area.agg
+ageaggfile	FIT/print.aggfiles/had.rec.age.agg
+lenaggfile	FIT/print.aggfiles/had.alllen.agg
+printfile	FIT/out.fit/had.recruitment
+printatstart	0
+yearsandsteps	all 1
+;
+;
