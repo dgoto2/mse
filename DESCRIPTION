@@ -48,6 +48,10 @@ Collate:
   'mc.R'
   'performance.R'
   'run.R'
+  'assessment-gadget.R'
+  'gadget-fls.R'
+  'gadget-fwd.R'
+  'mp-methods-gadget.R'
 VignetteBuilder: knitr
 Roxygen: list(markdown = TRUE)
 License: EUPL
